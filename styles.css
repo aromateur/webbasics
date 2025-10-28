@@ -1,0 +1,98 @@
+:root {
+    background-color: floralwhite;
+    font-family: 'Franklin Gothic Medium'
+}
+nav {
+    position: relative;
+    background-color: antiquewhite;
+    color: indigo;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    border: dotted indigo;
+    border-radius: 50px;
+}
+h1 {
+    color: indigo;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium';
+    color: indigo;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Audiowide';
+    font-size: 25px;
+    color: navy;
+    text-align: center;
+    margin-bottom: 5px;
+}
+h4 {
+    font-family: 'Franklin Gothic Medium';
+    color: navy;
+    
+}
+h5 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 16px;
+    color: indigo;
+    margin: 0px 0px 0px 0px;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: static;
+    padding: 10px 10px 10px 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-row-end: 20px;
+    justify-content: space-evenly;
+    color: gold;
+}
+
+.linked-image {
+    width: 250px;
+    height: 200px;
+    border: 3px solid gold;
+    border-radius: 15px;
+}
+
+.linked-image:hover {
+    opacity: 0.6;
+    display: "title"
+}
+
+#welcome {
+border: 3px solid;
+    margin: 5% 25% 5% 25%;
+    padding: 5px 10px 5px 10px;
+}
+
+.fragtable, th, td {
+    border: 1px solid;
+    width: 700px;
+    border-collapse: collapse;
+    padding: 8px 8px 8px 8px;
+    background-color: lightcyan;
+    text-align: left;
+    margin: 1% 10% 1% 10%;
+}
+
+.review {
+    border: 2px solid;
+    margin: 1% 10% 1% 10%;
+    padding: 8px 0px 8px 8px;
+    width: 700px;
+}
+
+#dataform {
+    color: navy;
+    font-family: 'Audiowide';
+    margin-left: 10px;
+}
+
+#fragfaves {
+    color: deeppink
+}
